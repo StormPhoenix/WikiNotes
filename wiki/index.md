@@ -7,10 +7,13 @@
 - [[concept-puerts-typescript-version-compatibility|PuerTS TypeScript 版本兼容性]]
 
 ## 政治经济历史
-- [[source-2026-06-23-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai|“人”是印度农业发展的关键阻碍]]
+- [[source-2026-06-23-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai|"人"是印度农业发展的关键阻碍]]
 - [[concept-india-agriculture-systemic-constraints|印度农业的系统性约束]]
 - [[concept-agricultural-governance-capacity|农业治理能力]]
 - [[concept-land-reform-and-rural-organization|土地改革与农村组织]]
+- [[source-2024-09-09-zhihu-why-only-china-poverty-alleviation|为什么只有中国在扶贫]]
+- [[concept-systemic-poverty-alleviation|体系扶贫]]
+- [[concept-china-targeted-poverty-alleviation|精准扶贫]]
 
 ## 金融投资交易
 _待积累_
