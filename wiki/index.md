@@ -2,9 +2,12 @@
 
 ## 游戏技术
 - [[source-2026-07-02-puerts-ts-blueprint-uclass-troubleshooting|PuerTS TS 继承 UE 类并暴露给蓝图调用调研与踩坑记录]]
+- [[source-2026-07-03-puerts-static-class-proto-chain-pitfall|PuerTS StaticClass 返回父类原型链踩坑记录]]
 - [[concept-puerts-ts-blueprint-binding|PuerTS TS 到蓝图自动绑定机制]]
 - [[concept-puerts-blueprintfunctionlibrary|PuerTS TS BlueprintFunctionLibrary 模式]]
 - [[concept-puerts-typescript-version-compatibility|PuerTS TypeScript 版本兼容性]]
+- [[concept-puerts-staticclass-proto-chain|PuerTS TS 生成类 StaticClass 返回父类 UClass 的原型链根因]]
+- [[concept-puerts-ue-class-load|通过 UE.Class.Load() 加载 PuerTS 生成蓝图类]]
 
 ## 政治经济历史
 - [[source-2026-06-23-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai|"人"是印度农业发展的关键阻碍]]
