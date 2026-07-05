@@ -16,8 +16,8 @@
 
 ## Links
 - **Internal wiki pages** (another file under `wiki/`): `[[concept-slug]]` or `[[concept-slug|label]]` — filename without extension, globally unique.
-- **External http(s) URLs** (off-wiki sites): use standard Markdown `[label](https://url)` syntax, bare URLs in bullets, or frontmatter `sources`. Never put external URLs inside `[[...]]`.
-- **Forbidden**: mixing wiki links and Markdown links together — invalid in both Markdown and Obsidian; choose either a wiki link or a Markdown external link, never combine them.
+- **External http(s) URLs** (off-wiki sites): use `[label](https://example.com/...)`, bare URLs in bullets, or frontmatter `sources`. Never put external URLs inside `[[...]]`.
+- **Forbidden**: hybrid syntax that puts double-brackets around the label and parentheses around the URL simultaneously — invalid in both Markdown and Obsidian; choose either a wiki link or a Markdown external link.
 - When an external source deserves a graph node, create a wiki page first, link to it, and keep the original URL in `sources` or bullets.
 
 ## Frontmatter
@@ -26,7 +26,7 @@
 title: Page Title
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-type: entity | concept | comparison | source | synthesis | overview
+type: entity | concept | comparison | source | synthesis | overview | til
 tags: []
 sources: []
 confidence: low | medium | high
@@ -60,6 +60,57 @@ confidence: low | medium | high
 ## Page Thresholds
 - Create a page when an entity/concept is central to one source or appears in 2+ sources.
 - Passing mentions → add to existing page.
+
+## Type Routing & Boundaries
+
+每种类型的判断标准、创建阈值、边界声明和推荐结构。ingest 时按此路由，maintain 时按此检查误分类。
+
+### entity — 可命名的主体
+- 判断：一个人、组织、工具、项目等可命名的主体，在资料中被反复提及或为核心主体。
+- 阈值：在 1 个来源中为核心主体，或在 2+ 来源中出现。
+- 边界：不记录概念解释（→concept）、系统性对比（→comparison）、碎片化知识点（→til）。
+- 结构：概述 → 关键属性 → 出现的来源 → 相关概念链接
+
+### concept — 体系化概念
+- 判断：一个技术概念、方法论、模式等需要解释"它是什么"的抽象知识。
+- 阈值：在 1 个来源中被定义或详细解释，或在 2+ 来源中出现。
+- 边界：不记录具体人物/组织/工具（→entity）、跨概念综合洞察（→synthesis）、碎片化知识点（→til）。
+- 结构：定义 → 核心要点 → 常见误区（可选）→ 相关概念链接
+
+### til — 碎片化速记
+- 判断：单个原子知识点：一个技巧、一个命令、一个坑、一个小发现。一句话能说清核心。
+- 阈值：只要值得记录就建页，不需要 2+ 来源。如果需要"定义→核心要点"的体系化结构，用 concept。
+- 边界：不记录完整概念解释（→concept）、人/组织/工具（→entity）、系统性对比（→comparison）。
+- 结构：正文（简洁叙述）→ 为什么（可选）→ 常见误区（可选）
+- 独有字段：follow-up
+
+### comparison — 系统性对比
+- 判断：两个或多个实体/概念的多维度系统性对比。
+- 阈值：对比覆盖 3+ 维度且有足够信息撑起独立页面时建页；单次提及的简单对比写进已有页面。
+- 边界：不记录单一概念的深度解释（→concept）。
+- 结构：对比维度表 → 各方分析 → 结论
+
+### source — 原始资料摘要
+- 判断：一份 raw 资料的结构化摘要页。每份 raw 资料对应一个 source 页。
+- 阈值：每份新增 raw 资料创建一个 source 页。
+- 边界：不记录跨来源综合（→synthesis）、单一概念深度解释（→concept）。
+- 结构：来源元信息 → 摘要 → 关键引用 → 关联页面
+
+### synthesis — 跨来源综合洞察
+- 判断：综合多个来源得出的洞察，难以归入单一 entity 或 concept。
+- 阈值：洞察来自 2+ 来源的交叉分析。单来源的分析写进对应 source 或 concept 页。
+- 边界：不记录单来源摘要（→source）、单一概念的常规解释（→concept）。
+- 结构：核心洞察 → 支撑证据（引用多来源）→ follow-up（可选）
+
+### overview — 领域全局概览
+- 判断：领域的全局概览和入口指引。只维护一个页面。
+- 阈值：wiki 初始化时创建，随 ingest/maintain 持续更新。
+- 边界：不记录具体实体/概念的细节（→entity）。
+- 结构：领域范围 → 核心入口 → 知识地图
+
+### 通用规则
+- Passing mention → 追加到已有页面，不新建页。
+- 类型难以判断时，优先选 concept（最通用的类型）。
 
 ## Update Policy
 - Do not silently overwrite conflicting claims.

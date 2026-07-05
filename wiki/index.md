@@ -1,34 +1,43 @@
 # Wiki Index
 
-## 游戏技术
-- [[source-2026-07-02-puerts-ts-blueprint-uclass-troubleshooting|PuerTS TS 继承 UE 类并暴露给蓝图调用调研与踩坑记录]]
-- [[source-2026-07-03-puerts-static-class-proto-chain-pitfall|PuerTS StaticClass 返回父类原型链踩坑记录]]
-- [[concept-puerts-ts-blueprint-binding|PuerTS TS 到蓝图自动绑定机制]]
-- [[concept-puerts-blueprintfunctionlibrary|PuerTS TS BlueprintFunctionLibrary 模式]]
-- [[concept-puerts-typescript-version-compatibility|PuerTS TypeScript 版本兼容性]]
-- [[concept-puerts-staticclass-proto-chain|PuerTS TS 生成类 StaticClass 返回父类 UClass 的原型链根因]]
-- [[concept-puerts-ue-class-load|通过 UE.Class.Load() 加载 PuerTS 生成蓝图类]]
+> Read this first to route queries to relevant pages.
 
-## 政治经济历史
-- [[source-2026-06-23-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai|"人"是印度农业发展的关键阻碍]]
-- [[concept-india-agriculture-systemic-constraints|印度农业的系统性约束]]
-- [[concept-agricultural-governance-capacity|农业治理能力]]
-- [[concept-land-reform-and-rural-organization|土地改革与农村组织]]
-- [[source-2025-01-26-buneng-yiwang-de-weida-gongji|不能遗忘的伟大功绩]]
-- [[concept-industrialization-as-social-transformation|工业化作为社会改造]]
-- [[concept-landlord-class-and-industrialization|地主阶级与工业化]]
-- [[concept-modern-state-building|现代国家建设]]
+## Overview
+- [[overview|领域全局概览]]
+
+## Sources
 - [[source-2024-09-09-zhihu-why-only-china-poverty-alleviation|为什么只有中国在扶贫]]
-- [[concept-systemic-poverty-alleviation|体系扶贫]]
-- [[concept-china-targeted-poverty-alleviation|精准扶贫]]
-
-## 金融投资交易
+- [[source-2025-01-26-buneng-yiwang-de-weida-gongji|不能遗忘的伟大功绩]]
+- [[source-2026-06-23-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai|"人"是印度农业发展的关键阻碍]]
 - [[source-2026-07-02-economics-beginner-learning-plan|经济学入门建议学习计划]]
 - [[source-2026-07-02-economics-beginner-reading-list|经济学入门书单与资料推荐]]
-- [[concept-macroeconomic-learning-framework|宏观经济入门学习框架]]
-- [[concept-macroeconomic-indicator-dashboard|宏观经济指标仪表盘]]
+- [[source-2026-07-02-puerts-ts-blueprint-uclass-troubleshooting|PuerTS TS 继承 UE 类并暴露给蓝图调用调研与踩坑记录]]
+- [[source-2026-07-03-puerts-static-class-proto-chain-pitfall|PuerTS StaticClass 返回父类原型链踩坑记录]]
+
+## Entities
+
+## Concepts
+- [[concept-agricultural-governance-capacity|农业治理能力]]
+- [[concept-china-targeted-poverty-alleviation|精准扶贫]]
 - [[concept-china-us-macro-comparison|中美宏观经济分析框架差异]]
 - [[concept-economics-reading-path|经济学入门阅读路径]]
+- [[concept-india-agriculture-systemic-constraints|印度农业的系统性约束]]
+- [[concept-industrialization-as-social-transformation|工业化作为社会改造]]
+- [[concept-land-reform-and-rural-organization|土地改革与农村组织]]
+- [[concept-landlord-class-and-industrialization|地主阶级与工业化]]
+- [[concept-macroeconomic-indicator-dashboard|宏观经济指标仪表盘]]
+- [[concept-macroeconomic-learning-framework|宏观经济入门学习框架]]
+- [[concept-modern-state-building|现代国家建设]]
+- [[concept-puerts-blueprintfunctionlibrary|PuerTS TS BlueprintFunctionLibrary 模式]]
+- [[concept-puerts-staticclass-proto-chain|PuerTS TS 生成类 StaticClass 返回父类 UClass 的原型链根因]]
+- [[concept-puerts-ts-blueprint-binding|PuerTS TS 到蓝图自动绑定机制]]
+- [[concept-puerts-typescript-version-compatibility|PuerTS TypeScript 版本兼容性]]
+- [[concept-puerts-ue-class-load|通过 UE.Class.Load() 加载 PuerTS 生成蓝图类]]
+- [[concept-systemic-poverty-alleviation|体系扶贫]]
 
-## 阅读知识管理
-- [[concept-economics-reading-path|经济学入门阅读路径]]
+## Comparisons
+
+## Synthesis
+- [[synthesis|跨来源综合洞察]]
+
+## TIL
