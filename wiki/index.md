@@ -13,6 +13,8 @@
 - [[source-2026-07-02-economics-beginner-reading-list|经济学入门书单与资料推荐]]
 - [[source-2026-07-02-puerts-ts-blueprint-uclass-troubleshooting|PuerTS TS 继承 UE 类并暴露给蓝图调用调研与踩坑记录]]
 - [[source-2026-07-03-puerts-static-class-proto-chain-pitfall|PuerTS StaticClass 返回父类原型链踩坑记录]]
+- [[source-2026-07-05-genshin-sandrone-recording-dialogue|原神·桑多涅与阿兰·吉约丹的对话]]
+- [[source-2026-07-05-genshin-sandrone-inner-dialogue-loss|原神·桑多涅与内心的对话：失去与告别]]
 
 ## Entities
 
@@ -41,3 +43,5 @@
 - [[synthesis|跨来源综合洞察]]
 
 ## TIL
+- [[til-recording-shapes-identity|记录即自我塑造]]
+- [[til-loss-and-farewell-growth|在失去与告别中成长]]
