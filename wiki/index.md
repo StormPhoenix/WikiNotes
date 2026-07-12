@@ -15,6 +15,7 @@
 - [[source-2026-07-03-puerts-static-class-proto-chain-pitfall|PuerTS StaticClass 返回父类原型链踩坑记录]]
 - [[source-2026-07-05-genshin-sandrone-recording-dialogue|原神·桑多涅与阿兰·吉约丹的对话]]
 - [[source-2026-07-05-genshin-sandrone-inner-dialogue-loss|原神·桑多涅与内心的对话：失去与告别]]
+- [[source-2026-07-12-personal-reflection-passion-vs-obligation|个人感悟：热爱驱动 vs 被迫驱动]]
 
 ## Entities
 
@@ -45,3 +46,4 @@
 ## TIL
 - [[til-recording-shapes-identity|记录即自我塑造]]
 - [[til-loss-and-farewell-growth|在失去与告别中成长]]
+- [[til-passion-vs-obligation|热爱驱动 vs 被迫驱动]]
