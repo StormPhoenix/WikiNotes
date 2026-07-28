@@ -3,6 +3,7 @@ title: 猪瘟与资本市场催化
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - finance
   - trading

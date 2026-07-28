@@ -3,6 +3,7 @@ title: 中国本土猪 vs 进口品种
 created: 2026-07-22
 updated: 2026-07-22
 type: comparison
+domain: finance-investing-trading
 tags:
   - economics
   - history

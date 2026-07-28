@@ -3,6 +3,7 @@ title: 猪的驯化历史
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - history
   - economics

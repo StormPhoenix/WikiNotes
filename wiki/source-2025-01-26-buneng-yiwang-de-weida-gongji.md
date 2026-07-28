@@ -3,6 +3,7 @@ title: 不能遗忘的伟大功绩
 created: 2026-07-02
 updated: 2026-07-02
 type: source
+domain: political-economy-history
 tags: [source, history, politics, economics, key-insight]
 sources:
   - https://zhuanlan.zhihu.com/p/147756952

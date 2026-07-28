@@ -3,6 +3,7 @@ title: 宏观经济指标仪表盘
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: finance-investing-trading
 tags: [economics, macro, finance, learning]
 sources: [raw/2026-07-02-economics-beginner-learning-plan.md]
 confidence: high

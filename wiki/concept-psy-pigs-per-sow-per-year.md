@@ -3,6 +3,7 @@ title: PSY（每头母猪年断奶仔猪数）
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - finance
   - economics

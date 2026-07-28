@@ -3,6 +3,7 @@ title: 经济学入门书单与资料推荐
 created: 2026-07-02
 updated: 2026-07-02
 type: source
+domain: finance-investing-trading
 tags: [source, economics, macro, finance, learning, reading]
 sources: [raw/2026-07-02-economics-beginner-reading-list.md]
 confidence: high

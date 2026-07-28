@@ -3,6 +3,7 @@ title: PuerTS TS 生成类 StaticClass 返回父类原型链踩坑记录
 created: 2026-07-03
 updated: 2026-07-03
 type: source
+domain: game-tech
 tags: [game-tech, unreal-engine, puerts, typescript, source, debug]
 sources:
   - raw/2026-07-03-puerts-static-class-proto-chain-pitfall.md

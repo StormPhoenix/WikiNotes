@@ -3,6 +3,7 @@ title: 政策叙事驱动的估值重构
 created: 2026-07-28
 updated: 2026-07-28
 type: concept
+domain: finance-investing-trading
 tags:
   - finance
   - economics

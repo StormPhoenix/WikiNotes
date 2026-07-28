@@ -1,23 +1,29 @@
 # Wiki Schema
 
-## Domain
-本 Wiki 覆盖以下四个领域：
-- **游戏技术**：游戏引擎、渲染、性能优化、工具链、游戏设计
-- **政治经济历史**：政治体制、经济发展、历史事件、地缘政治、社会制度
-- **金融投资交易**：市场分析、投资策略、交易系统、风险管理、宏观经济
-- **阅读知识管理**：读书笔记、知识体系、学习方法、信息处理
+## Domains
+本 Wiki 覆盖以下四个领域，旨在积累跨领域知识与洞见。页面所属领域以 frontmatter `domain` 字段为准；文件名中的领域前缀只是可读性优化，历史文件可暂不批量重命名。
+
+| Domain ID | Name | Scope |
+|-----------|------|-------|
+| general | General | 全局入口、索引、跨领域综合、尚未细分的页面 |
+| game-tech | 游戏技术 | 游戏引擎、渲染、性能优化、工具链、游戏设计、PuerTS、UE/蓝图等 |
+| political-economy-history | 政治经济历史 | 政治体制、经济发展、历史事件、地缘政治、社会制度、国家能力、工业化、扶贫、农业治理 |
+| finance-investing-trading | 金融投资交易 | 市场分析、投资策略、交易系统、风险管理、宏观经济、产业研究、政策叙事、资本市场催化 |
+| knowledge-management | 阅读知识管理 | 读书笔记、知识体系、学习方法、信息处理、个人反思、记录与成长 |
 
 ## Conventions
 - Keep raw sources under `raw/`; existing raw files are immutable.
 - Keep generated knowledge pages physically flat under `wiki/`.
-- Use lowercase type-slug filenames, e.g. `concept-example.md`.
+- Use lowercase domain-type-slug filenames, e.g. `general-concept-example.md` or `tech-entity-karpathy.md`. A page's authoritative domain is its frontmatter `domain`; the filename prefix is a human-scannable convenience.
 - Keep `wiki/index.md` current with every durable wiki page.
 - Record each operation as one standalone file under `log/` and one JSONL line in `log/manifest.jsonl`.
 
+历史兼容规则：当前已有大量 `type-slug.md` 命名的平铺页面，升级后不强制批量重命名；维护时优先补齐 frontmatter `domain` 字段，并在新建页面时逐步采用 `domain-type-slug.md` 命名。
+
 ## Links
 - **Internal wiki pages** (another file under `wiki/`): `[[concept-slug]]` or `[[concept-slug|label]]` — filename without extension, globally unique.
-- **External http(s) URLs** (off-wiki sites): use `[label](https://example.com/...)`, bare URLs in bullets, or frontmatter `sources`. Never put external URLs inside `[[...]]`.
-- **Forbidden**: hybrid syntax that puts double-brackets around the label and parentheses around the URL simultaneously — invalid in both Markdown and Obsidian; choose either a wiki link or a Markdown external link.
+- **External http(s) URLs** (off-wiki sites): use `[label](https://example.com/...)`, bare URLs in bullets, or frontmatter `sources`. Never put external URLs inside wiki double brackets.
+- **Forbidden**: hybrid syntax that combines Obsidian double-bracket links with Markdown URL links; choose either a wiki link or a Markdown external link.
 - When an external source deserves a graph node, create a wiki page first, link to it, and keep the original URL in `sources` or bullets.
 
 ## Frontmatter
@@ -27,6 +33,7 @@ title: Page Title
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: entity | concept | comparison | source | synthesis | overview | til
+domain: general
 tags: []
 sources: []
 confidence: low | medium | high
@@ -72,14 +79,14 @@ confidence: low | medium | high
 - 结构：概述 → 关键属性 → 出现的来源 → 相关概念链接
 
 ### concept — 体系化概念
-- 判断：一个技术概念、方法论、模式等需要解释"它是什么"的抽象知识。
+- 判断：一个技术概念、方法论、模式等需要解释“它是什么”的抽象知识。
 - 阈值：在 1 个来源中被定义或详细解释，或在 2+ 来源中出现。
 - 边界：不记录具体人物/组织/工具（→entity）、跨概念综合洞察（→synthesis）、碎片化知识点（→til）。
 - 结构：定义 → 核心要点 → 常见误区（可选）→ 相关概念链接
 
 ### til — 碎片化速记
 - 判断：单个原子知识点：一个技巧、一个命令、一个坑、一个小发现。一句话能说清核心。
-- 阈值：只要值得记录就建页，不需要 2+ 来源。如果需要"定义→核心要点"的体系化结构，用 concept。
+- 阈值：只要值得记录就建页，不需要 2+ 来源。如果需要“定义→核心要点”的体系化结构，用 concept。
 - 边界：不记录完整概念解释（→concept）、人/组织/工具（→entity）、系统性对比（→comparison）。
 - 结构：正文（简洁叙述）→ 为什么（可选）→ 常见误区（可选）
 - 独有字段：follow-up
@@ -115,3 +122,5 @@ confidence: low | medium | high
 ## Update Policy
 - Do not silently overwrite conflicting claims.
 - Flag unresolved contradictions for user review.
+
+历史兼容策略：升级 schema 或 index 时保留既有页面链接和文件名，不因命名规范变化进行无必要的批量重命名；批量补字段应优先选择可逆、低风险的 frontmatter 增量维护。

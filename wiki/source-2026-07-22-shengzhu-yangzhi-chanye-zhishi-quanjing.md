@@ -3,6 +3,7 @@ title: 生猪养殖产业知识全景
 created: 2026-07-22
 updated: 2026-07-22
 type: source
+domain: finance-investing-trading
 tags:
   - finance
   - economics

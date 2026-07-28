@@ -3,6 +3,7 @@ title: 猪人工授精技术
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - economics
   - key-insight

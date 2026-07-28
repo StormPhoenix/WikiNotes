@@ -3,6 +3,7 @@ title: 中特估与长鑫科技国家战略硬科技资产估值
 created: 2026-07-28
 updated: 2026-07-28
 type: source
+domain: finance-investing-trading
 tags:
   - finance
   - economics

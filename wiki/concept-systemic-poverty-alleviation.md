@@ -3,6 +3,7 @@ title: "体系扶贫"
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: political-economy-history
 tags: [#politics, #economics, #key-insight]
 sources: ["https://zhuanlan.zhihu.com/p/718895304"]
 confidence: medium

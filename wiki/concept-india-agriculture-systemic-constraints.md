@@ -3,6 +3,7 @@ title: 印度农业的系统性约束
 created: 2026-07-01
 updated: 2026-07-01
 type: concept
+domain: political-economy-history
 tags: [economics, politics, geopolitics, history, synthesis]
 sources:
   - raw/2026-06-23-zhihu-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai.md

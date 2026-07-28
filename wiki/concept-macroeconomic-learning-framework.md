@@ -3,6 +3,7 @@ title: 宏观经济入门学习框架
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: finance-investing-trading
 tags: [economics, macro, learning, key-insight]
 sources: [raw/2026-07-02-economics-beginner-learning-plan.md, raw/2026-07-02-economics-beginner-reading-list.md]
 confidence: high

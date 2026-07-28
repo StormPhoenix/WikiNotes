@@ -3,6 +3,7 @@ title: 国储收储 115kg 政策
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - politics
   - economics

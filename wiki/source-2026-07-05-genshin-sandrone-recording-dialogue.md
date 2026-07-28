@@ -3,6 +3,7 @@ title: 原神·桑多涅与阿兰·吉约丹的对话：记录的意义
 created: 2026-07-05
 updated: 2026-07-05
 type: source
+domain: knowledge-management
 tags:
   - reading
   - knowledge-mgmt

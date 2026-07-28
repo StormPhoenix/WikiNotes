@@ -2,6 +2,7 @@
 name: passion-vs-obligation
 description: 热爱驱动与被迫驱动的本质区别：废寝忘食来自热爱，被推着走不是坚持
 type: til
+domain: knowledge-management
 ---
 
 热爱驱动 vs 被迫驱动——两者表面都是"每天在做"，但本质完全不同。

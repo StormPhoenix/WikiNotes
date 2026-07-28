@@ -3,6 +3,7 @@ title: 工业化作为社会转型
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: political-economy-history
 tags: [history, economics, politics, key-insight]
 sources:
   - raw/2025-01-26-zhihu-buneng-yiwang-de-weida-gongji.md

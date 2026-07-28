@@ -3,6 +3,7 @@ title: "为什么只有中国在扶贫"
 created: 2026-07-02
 updated: 2026-07-02
 type: source
+domain: political-economy-history
 tags: [#politics, #economics, #source]
 sources: ["https://zhuanlan.zhihu.com/p/718895304"]
 confidence: medium

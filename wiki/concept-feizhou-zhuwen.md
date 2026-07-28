@@ -3,6 +3,7 @@ title: 非洲猪瘟（ASF）
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - economics
   - finance

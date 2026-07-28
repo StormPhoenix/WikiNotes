@@ -3,6 +3,7 @@ title: PuerTS TypeScript 版本兼容性
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: game-tech
 tags: [game-tech, puerts, typescript, unreal-engine, blueprint]
 sources:
   - raw/2026-07-02-puerts-ts-blueprint-uclass-troubleshooting.md

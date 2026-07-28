@@ -3,6 +3,7 @@ title: 土地改革与农村组织
 created: 2026-07-01
 updated: 2026-07-02
 type: concept
+domain: political-economy-history
 tags: [history, politics, economics, comparison]
 sources:
   - raw/2026-06-23-zhihu-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai.md

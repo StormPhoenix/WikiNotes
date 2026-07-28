@@ -3,6 +3,7 @@ title: 经济学入门建议学习计划
 created: 2026-07-02
 updated: 2026-07-02
 type: source
+domain: finance-investing-trading
 tags: [source, economics, macro, finance, learning]
 sources: [raw/2026-07-02-economics-beginner-learning-plan.md]
 confidence: high

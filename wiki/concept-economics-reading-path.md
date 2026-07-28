@@ -3,6 +3,7 @@ title: 经济学入门阅读路径
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: finance-investing-trading
 tags: [economics, macro, learning, reading]
 sources: [raw/2026-07-02-economics-beginner-reading-list.md, raw/2026-07-02-economics-beginner-learning-plan.md]
 confidence: high

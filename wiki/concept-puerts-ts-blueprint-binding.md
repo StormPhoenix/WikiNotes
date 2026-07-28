@@ -3,6 +3,7 @@ title: PuerTS TS 到蓝图自动绑定机制
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: game-tech
 tags: [game-tech, unreal-engine, puerts, typescript, blueprint]
 sources:
   - raw/2026-07-02-puerts-ts-blueprint-uclass-troubleshooting.md

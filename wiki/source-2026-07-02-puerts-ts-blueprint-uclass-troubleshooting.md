@@ -3,6 +3,7 @@ title: PuerTS TS 继承 UE 类并暴露给蓝图调用调研与踩坑记录
 created: 2026-07-02
 updated: 2026-07-02
 type: source
+domain: game-tech
 tags: [game-tech, unreal-engine, puerts, typescript, blueprint, source]
 sources:
   - raw/2026-07-02-puerts-ts-blueprint-uclass-troubleshooting.md

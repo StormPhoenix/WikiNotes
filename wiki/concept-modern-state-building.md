@@ -3,6 +3,7 @@ title: 现代国家建构
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: political-economy-history
 tags: [history, politics, economics]
 sources:
   - raw/2025-01-26-zhihu-buneng-yiwang-de-weida-gongji.md

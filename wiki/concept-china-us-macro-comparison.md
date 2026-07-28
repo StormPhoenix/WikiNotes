@@ -3,6 +3,7 @@ title: 中美宏观经济分析框架差异
 created: 2026-07-02
 updated: 2026-07-02
 type: concept
+domain: finance-investing-trading
 tags: [economics, macro, finance, comparison, key-insight]
 sources: [raw/2026-07-02-economics-beginner-learning-plan.md, raw/2026-07-02-economics-beginner-reading-list.md]
 confidence: high

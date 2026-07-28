@@ -3,6 +3,7 @@ title: 农业治理能力
 created: 2026-07-01
 updated: 2026-07-01
 type: concept
+domain: political-economy-history
 tags: [politics, economics, key-insight]
 sources:
   - raw/2026-06-23-zhihu-ren-shi-yindu-nongye-fazhan-de-guanjian-zuai.md

@@ -3,6 +3,7 @@ title: PuerTS TS 生成类 StaticClass 返回父类 UClass 的原型链根因
 created: 2026-07-03
 updated: 2026-07-03
 type: concept
+domain: game-tech
 tags: [game-tech, unreal-engine, puerts, typescript, blueprint, debug]
 sources:
   - raw/2026-07-03-puerts-static-class-proto-chain-pitfall.md

@@ -3,6 +3,7 @@ title: 国家战略不是股价地板
 created: 2026-07-28
 updated: 2026-07-28
 type: til
+domain: finance-investing-trading
 tags:
   - finance
   - risk-mgmt

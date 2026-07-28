@@ -1,6 +1,13 @@
 ---
 name: source-2026-07-12-personal-reflection-passion-vs-obligation
 description: Craft 项目 git 历史引发的自我反思：热爱驱动 vs 被迫驱动
+type: source
+domain: knowledge-management
+tags:
+  - knowledge-mgmt
+sources:
+  - raw/2026-07-12-personal-reflection-passion-vs-obligation.md
+confidence: medium
 ---
 
 # 来源：个人感悟 — 热爱驱动 vs 被迫驱动

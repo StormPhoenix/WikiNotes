@@ -3,6 +3,7 @@ title: 中特估（中国特色估值体系）
 created: 2026-07-28
 updated: 2026-07-28
 type: concept
+domain: finance-investing-trading
 tags:
   - finance
   - economics

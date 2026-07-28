@@ -3,6 +3,7 @@ title: 生猪育种金字塔体系
 created: 2026-07-22
 updated: 2026-07-22
 type: concept
+domain: finance-investing-trading
 tags:
   - finance
   - economics

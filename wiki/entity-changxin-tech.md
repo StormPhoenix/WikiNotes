@@ -3,6 +3,7 @@ title: 长鑫科技
 created: 2026-07-28
 updated: 2026-07-28
 type: entity
+domain: finance-investing-trading
 tags:
   - finance
   - economics

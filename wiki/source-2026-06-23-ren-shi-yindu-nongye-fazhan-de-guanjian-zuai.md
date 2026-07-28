@@ -3,6 +3,7 @@ title: “人”是印度农业发展的关键阻碍
 created: 2026-07-01
 updated: 2026-07-01
 type: source
+domain: political-economy-history
 tags: [source, politics, economics, history, geopolitics, key-insight]
 sources:
   - https://zhuanlan.zhihu.com/p/2052785967711380714

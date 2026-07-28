@@ -3,6 +3,7 @@ title: 原神·桑多涅与内心的对话：失去与告别
 created: 2026-07-05
 updated: 2026-07-05
 type: source
+domain: knowledge-management
 tags:
   - reading
 sources:

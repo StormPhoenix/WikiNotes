@@ -3,6 +3,7 @@ title: 通过 UE.Class.Load() 加载 PuerTS 生成的蓝图类
 created: 2026-07-03
 updated: 2026-07-03
 type: concept
+domain: game-tech
 tags: [game-tech, unreal-engine, puerts, typescript, blueprint]
 sources:
   - raw/2026-07-03-puerts-static-class-proto-chain-pitfall.md

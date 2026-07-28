@@ -3,6 +3,7 @@ title: 记录即自我塑造
 created: 2026-07-05
 updated: 2026-07-05
 type: til
+domain: knowledge-management
 tags:
   - knowledge-mgmt
   - key-insight
