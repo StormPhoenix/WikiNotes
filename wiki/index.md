@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 created: 2026-07-01
-updated: 2026-07-28
+updated: 2026-07-29
 type: overview
 domain: general
 tags:
@@ -13,12 +13,13 @@ confidence: high
 # Wiki Index
 
 > Read this first to route queries to relevant pages.
-> 一级按域（Domain）分区，域内再按类型（Sources / Entities / Concepts / Comparisons / Synthesis / TIL）罗列；每个页面按其 frontmatter domain 归入对应 ## Domain 分区。
+> 一级按域（Domain）分区，域内再按类型（Sources / Entities / Concepts / Comparisons / Synthesis / TIL）罗列；每个页面按其 frontmatter domain 归入对应域分区。
+> 分区标题使用 schema.md Domains 表的 Name（显示名）+ 括号内 domain ID，格式为 `## Domain: <Name> (<id>)`。
 
 ## Overview
 - [[overview|领域全局概览]]
 
-## Domain: general
+## Domain: General (general)
 
 ### Sources
 
@@ -33,7 +34,7 @@ confidence: high
 
 ### TIL
 
-## Domain: game-tech
+## Domain: 游戏技术 (game-tech)
 
 ### Sources
 - [[source-2026-07-02-puerts-ts-blueprint-uclass-troubleshooting|PuerTS TS 继承 UE 类并暴露给蓝图调用调研与踩坑记录]]
@@ -54,7 +55,7 @@ confidence: high
 
 ### TIL
 
-## Domain: political-economy-history
+## Domain: 政治经济历史 (political-economy-history)
 
 ### Sources
 - [[source-2024-09-09-zhihu-why-only-china-poverty-alleviation|为什么只有中国在扶贫]]
@@ -79,7 +80,7 @@ confidence: high
 
 ### TIL
 
-## Domain: finance-investing-trading
+## Domain: 金融投资交易 (finance-investing-trading)
 
 ### Sources
 - [[source-2026-07-02-economics-beginner-learning-plan|经济学入门建议学习计划]]
@@ -87,16 +88,21 @@ confidence: high
 - [[source-2026-07-22-shengzhu-yangzhi-chanye-zhishi-quanjing|生猪养殖产业知识全景]]
 - [[source-2026-07-22-feizhou-zhuwen-yu-ziben-shichang-cuihua|非洲猪瘟与资本市场催化]]
 - [[source-2026-07-28-zhongtegu-changxin-tech-national-strategic-valuation|中特估与长鑫科技国家战略硬科技资产估值]]
+- [[source-2026-07-29-alpha-beta-personal-investment-framework|Alpha 与 Beta：个人投资者分析个股和市场的思维框架]]
 
 ### Entities
 - [[entity-changxin-tech|长鑫科技]]
 
 ### Concepts
+- [[concept-alpha-beta-investment-framework|Alpha / Beta 个人投资分析框架]]
+- [[concept-alpha-in-investing|Alpha（投资中的超额收益）]]
+- [[concept-beta-in-investing|Beta（投资中的共同风险因子暴露）]]
 - [[concept-china-us-macro-comparison|中美宏观经济分析框架差异]]
 - [[concept-economics-reading-path|经济学入门阅读路径]]
 - [[concept-feizhou-zhuwen|非洲猪瘟（ASF）]]
 - [[concept-gongzhu-yange|公猪阉割]]
 - [[concept-guochu-shouchu-115kg|国储收储 115kg 政策]]
+- [[concept-investment-return-attribution|投资收益归因复盘]]
 - [[concept-macroeconomic-indicator-dashboard|宏观经济指标仪表盘]]
 - [[concept-macroeconomic-learning-framework|宏观经济入门学习框架]]
 - [[concept-national-strategic-asset-valuation|国家战略资产估值]]
@@ -114,9 +120,10 @@ confidence: high
 ### Synthesis
 
 ### TIL
+- [[til-do-not-mistake-beta-for-alpha|不要把 Beta 误认为 Alpha]]
 - [[til-national-strategy-not-stock-price-floor|国家战略不是股价地板]]
 
-## Domain: knowledge-management
+## Domain: 阅读知识管理 (knowledge-management)
 
 ### Sources
 - [[source-2026-07-05-genshin-sandrone-recording-dialogue|原神·桑多涅与阿兰·吉约丹的对话]]

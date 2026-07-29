@@ -11,6 +11,9 @@
 | finance-investing-trading | 金融投资交易 | 市场分析、投资策略、交易系统、风险管理、宏观经济、产业研究、政策叙事、资本市场催化 |
 | knowledge-management | 阅读知识管理 | 读书笔记、知识体系、学习方法、信息处理、个人反思、记录与成长 |
 
+- **Domain ID**: lowercase ASCII slug, used in frontmatter `domain` and filename prefixes; keep it stable (renaming an ID is a breaking change).
+- **Name**: human-readable display name (may be Chinese). `wiki/index.md` shows each domain section as `## Domain: <Name> (<id>)`, pairing the display name with its ID. This Domains table is the single source of truth for the ID↔Name mapping.
+
 ## Conventions
 - Keep raw sources under `raw/`; existing raw files are immutable.
 - Keep generated knowledge pages physically flat under `wiki/`.

@@ -1,7 +1,7 @@
 ---
 title: 领域全局概览
 created: 2026-07-01
-updated: 2026-07-28
+updated: 2026-07-29
 type: overview
 domain: general
 tags:
@@ -17,7 +17,7 @@ confidence: high
 | 领域 | 关键词 | 主要入口 |
 |------|--------|----------|
 | **政治经济历史** | 国家能力、工业化、扶贫、农业治理、制度比较 | [[concept-modern-state-building]]、[[concept-industrialization-as-social-transformation]]、[[concept-systemic-poverty-alleviation]]、[[concept-india-agriculture-systemic-constraints]] |
-| **金融投资交易** | 宏观学习、资本市场催化、政策叙事、风险管理、生猪周期、中特估 | [[concept-macroeconomic-learning-framework]]、[[concept-zhuwen-ziben-shichang-cuihua]]、[[concept-zhongtegu]]、[[concept-policy-narrative-valuation]]、[[concept-national-strategic-asset-valuation]] |
+| **金融投资交易** | 宏观学习、资本市场催化、政策叙事、收益归因、风险管理、生猪周期、中特估 | [[concept-macroeconomic-learning-framework]]、[[concept-alpha-beta-investment-framework]]、[[concept-investment-return-attribution]]、[[concept-zhuwen-ziben-shichang-cuihua]]、[[concept-zhongtegu]]、[[concept-policy-narrative-valuation]] |
 | **游戏技术** | PuerTS、UE 蓝图绑定、TypeScript 兼容性、原型链问题 | [[concept-puerts-ts-blueprint-binding]]、[[concept-puerts-staticclass-proto-chain]]、[[concept-puerts-typescript-version-compatibility]] |
 | **阅读知识管理 / 个人反思** | 记录、学习路径、热爱驱动、失去与告别 | [[til-recording-shapes-identity]]、[[til-passion-vs-obligation]]、[[til-loss-and-farewell-growth]]、[[concept-economics-reading-path]] |
 
@@ -35,6 +35,7 @@ confidence: high
 - [[source-2026-07-22-shengzhu-yangzhi-chanye-zhishi-quanjing|生猪养殖产业知识全景]]：生猪产业基础知识。
 - [[source-2026-07-22-feizhou-zhuwen-yu-ziben-shichang-cuihua|非洲猪瘟与资本市场催化]]：疫情、猪周期与资本市场催化。
 - [[source-2026-07-28-zhongtegu-changxin-tech-national-strategic-valuation|中特估与长鑫科技国家战略硬科技资产估值]]：政策叙事、国家战略资产估值和长鑫科技估值边界。
+- [[source-2026-07-29-alpha-beta-personal-investment-framework|Alpha 与 Beta：个人投资者分析个股和市场的思维框架]]：收益来源拆解、机会类型识别、仓位与复盘框架。
 
 ### 游戏技术
 
@@ -50,6 +51,7 @@ confidence: high
 
 - **国家能力线索**：[[concept-modern-state-building]] → [[concept-land-reform-and-rural-organization]] → [[concept-systemic-poverty-alleviation]] → [[concept-agricultural-governance-capacity]]
 - **宏观与投资学习线索**：[[concept-macroeconomic-learning-framework]] → [[concept-macroeconomic-indicator-dashboard]] → [[concept-china-us-macro-comparison]] → [[concept-economics-reading-path]]
+- **收益归因与投资分析线索**：[[concept-beta-in-investing]] ↔ [[concept-alpha-in-investing]] → [[concept-alpha-beta-investment-framework]] → [[concept-investment-return-attribution]] → [[til-do-not-mistake-beta-for-alpha]]
 - **生猪产业与催化线索**：[[concept-zhu-de-xunhua]] → [[concept-shengzhu-yuchong-tixi]] → [[concept-psy-pigs-per-sow-per-year]] → [[concept-feizhou-zhuwen]] → [[concept-zhuwen-ziben-shichang-cuihua]]
 - **政策叙事与估值线索**：[[concept-zhongtegu]] → [[concept-policy-narrative-valuation]] → [[concept-national-strategic-asset-valuation]] → [[entity-changxin-tech]] → [[til-national-strategy-not-stock-price-floor]]
 - **PuerTS 技术线索**：[[concept-puerts-ts-blueprint-binding]] → [[concept-puerts-blueprintfunctionlibrary]] → [[concept-puerts-staticclass-proto-chain]] → [[concept-puerts-ue-class-load]]
@@ -57,5 +59,5 @@ confidence: high
 ## 当前维护状态
 
 - Wiki 初始化于 2026-07-01。
-- 最近新增重点：生猪产业、非洲猪瘟资本市场催化、中特估与长鑫科技国家战略硬科技资产估值。
+- 最近新增重点：生猪产业、非洲猪瘟资本市场催化、中特估与长鑫科技国家战略硬科技资产估值、Alpha/Beta 个人投资分析框架。
 - `wiki/index.md` 是页面导航索引；本页是领域地图和阅读入口。
