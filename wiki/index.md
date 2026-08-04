@@ -89,9 +89,11 @@ confidence: high
 - [[source-2026-07-22-feizhou-zhuwen-yu-ziben-shichang-cuihua|非洲猪瘟与资本市场催化]]
 - [[source-2026-07-28-zhongtegu-changxin-tech-national-strategic-valuation|中特估与长鑫科技国家战略硬科技资产估值]]
 - [[source-2026-07-29-alpha-beta-personal-investment-framework|Alpha 与 Beta：个人投资者分析个股和市场的思维框架]]
+- [[source-2026-08-04-zhurou-tuzai-yewu-zhishi-quanjing|猪肉屠宰业务知识全景]]
 
 ### Entities
 - [[entity-changxin-tech|长鑫科技]]
+- [[entity-shuanghui-fazhan|双汇发展]]
 
 ### Concepts
 - [[concept-alpha-beta-investment-framework|Alpha / Beta 个人投资分析框架]]
@@ -113,6 +115,8 @@ confidence: high
 - [[concept-zhu-de-xunhua|猪的驯化历史]]
 - [[concept-zhu-rengong-shoujing|猪人工授精技术]]
 - [[concept-zhuwen-ziben-shichang-cuihua|猪瘟与资本市场催化]]
+- [[concept-tuzai-yewu|屠宰业务]]
+- [[concept-tuzai-pinghua-zhouqi|屠宰平滑猪周期逻辑]]
 
 ### Comparisons
 - [[comparison-china-vs-imported-pig-breeds|中国本土猪 vs 进口品种]]
