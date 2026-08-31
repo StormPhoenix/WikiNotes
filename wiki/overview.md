@@ -1,7 +1,7 @@
 ---
 title: 领域全局概览
 created: 2026-07-01
-updated: 2026-07-29
+updated: 2026-08-31
 type: overview
 domain: general
 tags:
@@ -17,7 +17,7 @@ confidence: high
 | 领域 | 关键词 | 主要入口 |
 |------|--------|----------|
 | **政治经济历史** | 国家能力、工业化、扶贫、农业治理、制度比较 | [[concept-modern-state-building]]、[[concept-industrialization-as-social-transformation]]、[[concept-systemic-poverty-alleviation]]、[[concept-india-agriculture-systemic-constraints]] |
-| **金融投资交易** | 宏观学习、资本市场催化、政策叙事、收益归因、风险管理、生猪周期、中特估 | [[concept-macroeconomic-learning-framework]]、[[concept-alpha-beta-investment-framework]]、[[concept-investment-return-attribution]]、[[concept-zhuwen-ziben-shichang-cuihua]]、[[concept-zhongtegu]]、[[concept-policy-narrative-valuation]] |
+| **金融投资交易** | 宏观学习、资本市场催化、政策叙事、收益归因、风险管理、生猪周期、中特估、财报分析、宏观预警（BIS/AI 泡沫/信用市场） | [[concept-macroeconomic-learning-framework]]、[[concept-alpha-beta-investment-framework]]、[[concept-zhuwen-ziben-shichang-cuihua]]、[[concept-zhongtegu]]、[[finance-concept-caibao-xinchou-zonge-jisuan]]、[[finance-concept-ai-capex-boom-three-failure-modes]]、[[finance-concept-cds-credit-default-swap]] |
 | **游戏技术** | PuerTS、UE 蓝图绑定、TypeScript 兼容性、原型链问题 | [[concept-puerts-ts-blueprint-binding]]、[[concept-puerts-staticclass-proto-chain]]、[[concept-puerts-typescript-version-compatibility]] |
 | **阅读知识管理 / 个人反思** | 记录、学习路径、热爱驱动、失去与告别 | [[til-recording-shapes-identity]]、[[til-passion-vs-obligation]]、[[til-loss-and-farewell-growth]]、[[concept-economics-reading-path]] |
 
@@ -36,6 +36,8 @@ confidence: high
 - [[source-2026-07-22-feizhou-zhuwen-yu-ziben-shichang-cuihua|非洲猪瘟与资本市场催化]]：疫情、猪周期与资本市场催化。
 - [[source-2026-07-28-zhongtegu-changxin-tech-national-strategic-valuation|中特估与长鑫科技国家战略硬科技资产估值]]：政策叙事、国家战略资产估值和长鑫科技估值边界。
 - [[source-2026-07-29-alpha-beta-personal-investment-framework|Alpha 与 Beta：个人投资者分析个股和市场的思维框架]]：收益来源拆解、机会类型识别、仓位与复盘框架。
+- [[finance-source-2026-08-11-caibao-yingpiao-xinchou|财报分析：应收票据、银行承兑汇票与薪酬推算]]：应收票据组成反映企业市场地位，银行承兑汇票机制与薪酬总额推算方法。
+- [[finance-source-2026-08-31-bis-aer2026-ai-capex-discussion|BIS 年度经济报告 2026 讨论]]：AI 资本开支潮三种失败模式、信用市场预警（CDS/利差）、Oracle 5Y CDS 现实验证与 MiniMax 案例；配套概念族见宏观预警线索。
 
 ### 游戏技术
 
@@ -55,9 +57,11 @@ confidence: high
 - **生猪产业与催化线索**：[[concept-zhu-de-xunhua]] → [[concept-shengzhu-yuchong-tixi]] → [[concept-psy-pigs-per-sow-per-year]] → [[concept-feizhou-zhuwen]] → [[concept-zhuwen-ziben-shichang-cuihua]]
 - **政策叙事与估值线索**：[[concept-zhongtegu]] → [[concept-policy-narrative-valuation]] → [[concept-national-strategic-asset-valuation]] → [[entity-changxin-tech]] → [[til-national-strategy-not-stock-price-floor]]
 - **PuerTS 技术线索**：[[concept-puerts-ts-blueprint-binding]] → [[concept-puerts-blueprintfunctionlibrary]] → [[concept-puerts-staticclass-proto-chain]] → [[concept-puerts-ue-class-load]]
+- **财报分析线索**：[[finance-concept-yinxing-chengdui-huipiao-yongtu|银行承兑汇票机制]] → [[finance-concept-yingpiao-piaoju-shichang-dewei|应收票据与企业市场地位]] · [[finance-concept-caibao-xinchou-zonge-jisuan|薪酬总额推算]]
+- **宏观预警与 AI 泡沫线索**：[[finance-concept-bis-annual-economic-report|BIS AER]] → [[finance-concept-ai-capex-boom-three-failure-modes|AI 资本开支三种失败模式]] → [[finance-concept-circular-financing|循环融资与四层放大链]] → [[finance-concept-credit-spread-widening|信用利差走阔]] → [[finance-concept-cds-credit-default-swap|5Y CDS]] → [[finance-entity-minimax|MiniMax 案例]]（配套工具：[[finance-concept-zero-coupon-convertible-bond|零息可转债]]、[[finance-concept-arr-annual-recurring-revenue|ARR]]、[[finance-concept-hk-stock-connect-southbound-liquidity|港股通与流动性真空]]）
 
 ## 当前维护状态
 
 - Wiki 初始化于 2026-07-01。
-- 最近新增重点：生猪产业、非洲猪瘟资本市场催化、中特估与长鑫科技国家战略硬科技资产估值、Alpha/Beta 个人投资分析框架。
+- 最近新增重点：生猪产业、非洲猪瘟资本市场催化、中特估与长鑫科技国家战略硬科技资产估值、Alpha/Beta 个人投资分析框架、财报分析（应收票据与企业市场地位、银行承兑汇票机制、薪酬总额推算）、BIS AER 2026 宏观预警体系（AI 资本开支失败模式、循环融资、信用利差与 CDS、零息可转债、ARR、港股通流动性）与 MiniMax 案例。
 - `wiki/index.md` 是页面导航索引；本页是领域地图和阅读入口。

@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 created: 2026-07-01
-updated: 2026-07-29
+updated: 2026-08-31
 type: overview
 domain: general
 tags:
@@ -90,10 +90,13 @@ confidence: high
 - [[source-2026-07-28-zhongtegu-changxin-tech-national-strategic-valuation|中特估与长鑫科技国家战略硬科技资产估值]]
 - [[source-2026-07-29-alpha-beta-personal-investment-framework|Alpha 与 Beta：个人投资者分析个股和市场的思维框架]]
 - [[source-2026-08-04-zhurou-tuzai-yewu-zhishi-quanjing|猪肉屠宰业务知识全景]]
+- [[finance-source-2026-08-11-caibao-yingpiao-xinchou|财报分析：应收票据与企业市场地位、银行承兑汇票机制、薪酬总额推算]]
+- [[finance-source-2026-08-31-bis-aer2026-ai-capex-discussion|BIS 年度经济报告 2026 讨论：AI 资本开支潮、信用市场预警与 MiniMax 案例验证]]
 
 ### Entities
 - [[entity-changxin-tech|长鑫科技]]
 - [[entity-shuanghui-fazhan|双汇发展]]
+- [[finance-entity-minimax|MiniMax（稀宇科技）]]
 
 ### Concepts
 - [[concept-alpha-beta-investment-framework|Alpha / Beta 个人投资分析框架]]
@@ -117,6 +120,17 @@ confidence: high
 - [[concept-zhuwen-ziben-shichang-cuihua|猪瘟与资本市场催化]]
 - [[concept-tuzai-yewu|屠宰业务]]
 - [[concept-tuzai-pinghua-zhouqi|屠宰平滑猪周期逻辑]]
+- [[finance-concept-yingpiao-piaoju-shichang-dewei|应收票据组成与企业市场地位]]
+- [[finance-concept-yinxing-chengdui-huipiao-yongtu|银行承兑汇票的用途与机制]]
+- [[finance-concept-caibao-xinchou-zonge-jisuan|从财报推算年度员工薪酬总额]]
+- [[finance-concept-bis-annual-economic-report|BIS 年度经济报告（AER）]]
+- [[finance-concept-ai-capex-boom-three-failure-modes|AI 资本开支潮的三种失败模式]]
+- [[finance-concept-circular-financing|循环融资与 AI 金融放大传导链]]
+- [[finance-concept-credit-spread-widening|信用利差走阔]]
+- [[finance-concept-cds-credit-default-swap|5Y CDS（信用违约互换）]]
+- [[finance-concept-zero-coupon-convertible-bond|零息可转债]]
+- [[finance-concept-arr-annual-recurring-revenue|ARR（年度经常性收入）]]
+- [[finance-concept-hk-stock-connect-southbound-liquidity|港股通、南向资金与流动性真空]]
 
 ### Comparisons
 - [[comparison-china-vs-imported-pig-breeds|中国本土猪 vs 进口品种]]
